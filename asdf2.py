@@ -4,6 +4,7 @@ import json
 import urllib
 import random
 
+@app.route('/translate', methods=['POST'])
 def baidu_translate(content,fromlang,tolang):
     appid = '20190518000298824'
     secretKey = 'KRlIbCBScKSyzu15RZe0'
